@@ -20,8 +20,10 @@ end
 
 There are two main functions you can call to evaluate your credit cards:
 
-- CreditCardValidation.CardType.get_type(credit_card) - (it will tell you the type of credit card)
-- CreditCardValidation.Luhn.is_valid?(credit_card) - (it will tell you if the credit card is valid)
+```elixir
+CreditCardValidation.CardType.get_type(credit_card) # it will tell you the type of credit card
+CreditCardValidation.Luhn.is_valid?(credit_card) # it will tell you if the credit card is valid
+```
 
 Pass them the credit card as string to make them work.
 
