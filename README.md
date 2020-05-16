@@ -11,7 +11,7 @@ Add `credit_card_validation` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:credit_card_validation, git: "git://github.com/alexanderttalvarez/credit_vard_validation.git", tag: "v0.1.0"}}
+    {:credit_card_validation, git: "git@github.com:alexanderttalvarez/credit_card_validation.git", tag: "v0.1.0"}}
   ]
 end
 ```
